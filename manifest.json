@@ -1,0 +1,16 @@
+{
+	"name": "二维码生成器",
+	"version": "0.1",
+	"manifest_version": 2,
+	"description": "生成二维码，方便手机访问pc页面",
+	"icons": {
+		"48": "icon.png"
+	},
+	"permissions": ["tabs","http://*/*", "https://*/*"],
+	"browser_action": {
+		"default_title": "",
+		"default_icon": "icon.png",
+		"default_popup": "popup.html"
+	}
+	
+}
